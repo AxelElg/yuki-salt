@@ -12,7 +12,7 @@ jobs:
           steps:
             - run: npm install
             - run: npm run lint 
-            - run: npm test:unit
+            - run: npm run test:unit
 workflows:
     build-and-test:
       jobs:
